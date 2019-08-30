@@ -1,0 +1,7 @@
+platform :ios, '9.0'
+
+target 'FCNumberButtonDemo' do
+    
+    pod 'FCNumberButton'
+use_frameworks! 
+end

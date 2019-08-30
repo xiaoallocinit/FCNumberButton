@@ -1,0 +1,16 @@
+PODS:
+  - FCNumberButton (0.0.1)
+
+DEPENDENCIES:
+  - FCNumberButton
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FCNumberButton
+
+SPEC CHECKSUMS:
+  FCNumberButton: 6c3ff5e30217d309ce43d844f41b275ad4fa486a
+
+PODFILE CHECKSUM: 43a5440690119e74d0f028c1c1be9d71dfb2c634
+
+COCOAPODS: 1.7.5

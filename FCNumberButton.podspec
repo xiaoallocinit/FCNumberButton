@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'FCNumberButton'
-  s.version      = '0.0.1'
+  s.version      = '0.0.2'
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.homepage     = 'https://github.com/xiaoallocinit/FCNumberButton.git'
   s.author = { "xiaoallocinit" => "xiao2683@qq.com" }

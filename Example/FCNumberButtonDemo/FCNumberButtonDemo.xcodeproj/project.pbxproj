@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D5481CF2318D10100CC5A54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5481CE2318D10100CC5A54 /* AppDelegate.swift */; };
+		2D5481D12318D10100CC5A54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5481D02318D10100CC5A54 /* ViewController.swift */; };
+		2D5481D42318D10100CC5A54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5481D22318D10100CC5A54 /* Main.storyboard */; };
+		2D5481D62318D10200CC5A54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D5481D52318D10200CC5A54 /* Assets.xcassets */; };
+		2D5481D92318D10200CC5A54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D5481D72318D10200CC5A54 /* LaunchScreen.storyboard */; };
+		2D5481E22318D1A100CC5A54 /* FCNumberButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5481E12318D1A100CC5A54 /* FCNumberButton.swift */; };
+		D21E591F373EF384AC3BBF99 /* Pods_FCNumberButtonDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DDCD8E7460F08B72FA83A79 /* Pods_FCNumberButtonDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D5481CB2318D10100CC5A54 /* FCNumberButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FCNumberButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D5481CE2318D10100CC5A54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2D5481D02318D10100CC5A54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2D5481D32318D10100CC5A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D5481D52318D10200CC5A54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D5481D82318D10200CC5A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D5481DA2318D10200CC5A54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D5481E12318D1A100CC5A54 /* FCNumberButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCNumberButton.swift; sourceTree = "<group>"; };
+		331209799A044F3DA258ADBA /* Pods-FCNumberButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCNumberButtonDemo.debug.xcconfig"; path = "Target Support Files/Pods-FCNumberButtonDemo/Pods-FCNumberButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3848D965403BAC1BFAAF5435 /* Pods-FCNumberButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FCNumberButtonDemo.release.xcconfig"; path = "Target Support Files/Pods-FCNumberButtonDemo/Pods-FCNumberButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4DDCD8E7460F08B72FA83A79 /* Pods_FCNumberButtonDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FCNumberButtonDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D5481C82318D10100CC5A54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21E591F373EF384AC3BBF99 /* Pods_FCNumberButtonDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0600426642A8A4A3DC10003A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DDCD8E7460F08B72FA83A79 /* Pods_FCNumberButtonDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D5481C22318D10100CC5A54 = {
+			isa = PBXGroup;
+			children = (
+				2D5481E02318D1A100CC5A54 /* FCNumberButton */,
+				2D5481CD2318D10100CC5A54 /* FCNumberButtonDemo */,
+				2D5481CC2318D10100CC5A54 /* Products */,
+				A73CCE082768197514B05B13 /* Pods */,
+				0600426642A8A4A3DC10003A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D5481CC2318D10100CC5A54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D5481CB2318D10100CC5A54 /* FCNumberButtonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D5481CD2318D10100CC5A54 /* FCNumberButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2D5481CE2318D10100CC5A54 /* AppDelegate.swift */,
+				2D5481D02318D10100CC5A54 /* ViewController.swift */,
+				2D5481D22318D10100CC5A54 /* Main.storyboard */,
+				2D5481D52318D10200CC5A54 /* Assets.xcassets */,
+				2D5481D72318D10200CC5A54 /* LaunchScreen.storyboard */,
+				2D5481DA2318D10200CC5A54 /* Info.plist */,
+			);
+			path = FCNumberButtonDemo;
+			sourceTree = "<group>";
+		};
+		2D5481E02318D1A100CC5A54 /* FCNumberButton */ = {
+			isa = PBXGroup;
+			children = (
+				2D5481E12318D1A100CC5A54 /* FCNumberButton.swift */,
+			);
+			name = FCNumberButton;
+			path = ../../FCNumberButton;
+			sourceTree = "<group>";
+		};
+		A73CCE082768197514B05B13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				331209799A044F3DA258ADBA /* Pods-FCNumberButtonDemo.debug.xcconfig */,
+				3848D965403BAC1BFAAF5435 /* Pods-FCNumberButtonDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D5481CA2318D10100CC5A54 /* FCNumberButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D5481DD2318D10200CC5A54 /* Build configuration list for PBXNativeTarget "FCNumberButtonDemo" */;
+			buildPhases = (
+				1B4ACD3D3FC38E31151D0DC6 /* [CP] Check Pods Manifest.lock */,
+				2D5481C72318D10100CC5A54 /* Sources */,
+				2D5481C82318D10100CC5A54 /* Frameworks */,
+				2D5481C92318D10100CC5A54 /* Resources */,
+				A18EBD96C6E30FCC4AC38BA2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FCNumberButtonDemo;
+			productName = FCNumberButtonDemo;
+			productReference = 2D5481CB2318D10100CC5A54 /* FCNumberButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D5481C32318D10100CC5A54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "肖志斌";
+				TargetAttributes = {
+					2D5481CA2318D10100CC5A54 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 2D5481C62318D10100CC5A54 /* Build configuration list for PBXProject "FCNumberButtonDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D5481C22318D10100CC5A54;
+			productRefGroup = 2D5481CC2318D10100CC5A54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D5481CA2318D10100CC5A54 /* FCNumberButtonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D5481C92318D10100CC5A54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5481D92318D10200CC5A54 /* LaunchScreen.storyboard in Resources */,
+				2D5481D62318D10200CC5A54 /* Assets.xcassets in Resources */,
+				2D5481D42318D10100CC5A54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B4ACD3D3FC38E31151D0DC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FCNumberButtonDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A18EBD96C6E30FCC4AC38BA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FCNumberButtonDemo/Pods-FCNumberButtonDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FCNumberButtonDemo/Pods-FCNumberButtonDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FCNumberButtonDemo/Pods-FCNumberButtonDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D5481C72318D10100CC5A54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D5481D12318D10100CC5A54 /* ViewController.swift in Sources */,
+				2D5481CF2318D10100CC5A54 /* AppDelegate.swift in Sources */,
+				2D5481E22318D1A100CC5A54 /* FCNumberButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D5481D22318D10100CC5A54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D5481D32318D10100CC5A54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2D5481D72318D10200CC5A54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D5481D82318D10200CC5A54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D5481DB2318D10200CC5A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D5481DC2318D10200CC5A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D5481DE2318D10200CC5A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 331209799A044F3DA258ADBA /* Pods-FCNumberButtonDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ADV4ESJAH;
+				INFOPLIST_FILE = FCNumberButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiao.FCNumberButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D5481DF2318D10200CC5A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3848D965403BAC1BFAAF5435 /* Pods-FCNumberButtonDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6ADV4ESJAH;
+				INFOPLIST_FILE = FCNumberButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xiao.FCNumberButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D5481C62318D10100CC5A54 /* Build configuration list for PBXProject "FCNumberButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5481DB2318D10200CC5A54 /* Debug */,
+				2D5481DC2318D10200CC5A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D5481DD2318D10200CC5A54 /* Build configuration list for PBXNativeTarget "FCNumberButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5481DE2318D10200CC5A54 /* Debug */,
+				2D5481DF2318D10200CC5A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D5481C32318D10100CC5A54 /* Project object */;
+}

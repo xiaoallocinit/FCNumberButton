@@ -101,7 +101,7 @@ open class FCNumberButton: UIView {
             textField.text = "\(_minValue)"
         }
         
-        let number = Int(textField.text!)! - 1;
+        let number = (Int(textField.text!)! - 1)
         if number >= _minValue {
             textField.text = "\(number)"
             
@@ -121,10 +121,7 @@ open class FCNumberButton: UIView {
         if (textField.text?.count)! == 0 || Int(textField.text!)! <= _minValue {
             textField.text = "\(_minValue)"
         }
-        guard let text =  textField.text else {
-            return
-        }
-        let number = Int(text) ?? 0 + 1
+        let number = (Int(textField.text!)! + 1)
         
         if number <= _maxValue {
             textField.text = "\(number)";

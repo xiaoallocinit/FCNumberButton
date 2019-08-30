@@ -1,0 +1,6 @@
+framework module FCNumberButton {
+  umbrella header "FCNumberButton-umbrella.h"
+
+  export *
+  module * { export * }
+}
